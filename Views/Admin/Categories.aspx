@@ -1,0 +1,44 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Admin/AdminMaster.Master" AutoEventWireup="true" CodeBehind="Categories.aspx.cs" Inherits="OnlineToyShop.Views.Admin.Categories" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MyContent" runat="server">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col"> <h1 class="text-center"style="color:teal;">Manage Categories</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="mb-3">
+                <label for="" class="form-label text-success">Categories Name</label>
+                <input type="text" placeholder="Name" autocomplete="off" class="form-control" runat="server" id="CatNameTb"/>
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label text-success">Description</label>
+                <input type="text" placeholder="Description" autocomplete="off" class="form-control" runat="server" id="DescriptionTb"/>
+            </div>
+        
+            <div class="row">
+             <asp:Label runat="server" ID="ErrMsg" class="text-danger"></asp:Label>
+             <div class="col-md-4 d-grid"><asp:Button Text="Update" runat="server" ID="EditBtn" class="button1" OnClick="EditBtn_Click"/></div>
+             <div class="col-md-4 d-grid"> <asp:Button Text="Save" runat="server" ID="SaveBtn" class="button2" OnClick="SaveBtn_Click" /></div>
+             <div class="col-md-4 d-grid"> <asp:Button Text="Delete" runat="server" ID="DeleteBtn" class="button3" OnClick="DeleteBtn_Click"/> </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <asp:GridView ID="CategoriesList" runat="server" class="table" CellPadding="4" ForeColor="#333333" AutoGenerateSelectButton="True" GridLines="None">
+                <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                <EditRowStyle BackColor="#999999" />
+                <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="powderblue" Font-Bold="false" ForeColor="White" />
+                <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                <SelectedRowStyle BackColor="#E2DED6" Font-Bold="true" ForeColor="#333333" />
+                <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+            </asp:GridView>
+        </div>
+    </div>
+</div>
+</asp:Content>

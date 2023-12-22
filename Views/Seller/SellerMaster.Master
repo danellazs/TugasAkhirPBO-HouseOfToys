@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SellerMaster.master.cs" Inherits="OnlineToyShop.Views.Seller.SellerMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <title></title>
+     <style>
+        .button1{
+            background: #fada5e;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            padding: 10px 16px;
+        }
+        .button2{
+        background: #7bb661;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 10px 16px;
+        }
+        .button3{
+        background: #da2c43;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 10px 16px;
+        }
+        .gmbr{
+            height:60px;
+            width:60px ;
+        }
+        *{
+            font-family:'Trebuchet MS';
+        }
+        #left{
+            left: 0px;
+            color:white;
+            height:865px;
+            background-color: powderblue;
+        }
+        label.a{
+            color:teal;
+            font-family:'Palatino Linotype';
+            font-weight:900;
+        }
+        label.b {
+             color: teal;
+             font-family: Helvetica;
+        }
+        td{
+            background-color:white;
+            color:black;
+        }
+    </style>
+        <link href="../../Assets/Lib/css/bootstrap.min.css" rel="stylesheet"/>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2" id="left">
+                <div style="height:5px">
+                </div>
+                <div class="p-2">
+                <div class ="mt-5">
+                </div>
+                <div class="mb-5">
+                    <img src="../../Assets/Images/Toys.png" class="gmbr"/>
+                   <b><font size ="4.9 px"> <a href ="#"><label class="a">Billing</label></a></font></b>
+                </div>
+                <div class="mb-5">
+                    <img src="../../Assets/Images/Spesification.png" class="gmbr"/>
+                    <b><font size ="4.9 px"><a href ="#"><label class="a">Spesification</label></a></font></b>
+                </div>
+                <div class="mb-5">
+                    <img src="../../Assets/Images/Seller.png" class="gmbr"/>
+                    <b><font size ="4.9 px"><a href ="#"><label class="a">Seller</label></a></font></b>
+                </div>
+                <div class="mb-5">
+                    <img src="../../Assets/Images/Categories.png" class="gmbr"/>
+                    <b><font size ="4.9 px"><a href ="#"><label class="a">Categories</label></a></font></b>
+                </div>
+                <div class="mb-5">
+                    <img src="../../Assets/Images/Logout.png" class="gmbr"/>
+                     <b><font size ="4.9 px"><a href ="../Login.aspx"><label class="a">Logout</label></a></font></b>
+                </div>
+                </div>
+             </div>
+                    <div class="col-10">
+                         <form id="form1" runat="server">
+                             <div>
+        <asp:ContentPlaceHolder ID="MyContent" runat="server">
+        </asp:ContentPlaceHolder>
+                             </div>
+                        </form>
+                   </div>
+       </div>
+    </div>
+    </body>
+</html>
