@@ -9,7 +9,7 @@ Aplikasi ini ditulis menggunakan bahasa C#, HTML, dan Javascript
 
 ## Pengunaan Aplikasi
 ((LOGIN))
-A. Seller Side
+### Seller Side
 1. Manage Toys : Bagian pengguna untuk mendaftarkan toys yang dimiliki dengan data Name, Spesification, Categories, Price, Quantity. Pengguna juga bisa menyunting atau menghapus data toys yang telah dibuat.
    - Untuk menambahkan data toys, klik input box setiap kolom Name, Spesification, Categories, Price, Quantity untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database server.
    - Untuk menyunting data toys, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Name, Spesification, Categories, Price, Quantity . Pengguna dapat melakukan perubahan pada input box data spesification tersebut. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
@@ -26,7 +26,7 @@ A. Seller Side
    - Untuk menambahkan data buyer, klik input box setiap kolom buyer untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database.
    - Untuk menyunting data buyer, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Name, Email, Phone Number, Password. Pengguna dapat melakukan perubahan pada input box data buyer tersebut. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
    - Untuk menghapus data buyer, klik "Select" pada row tabel data yang ingin dihapus. Data-data buyer akan ditampilkan kembali pada input box. Setelahnya, klik "Delete" untuk menghapus data tersebut dari database server.
-B. Buyer Interface
+### Buyer Interface
    1. Billing
 
    
