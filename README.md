@@ -15,8 +15,8 @@ A. Seller Side
    3. Manage Spesification
       Bagian pengguna untuk mendaftarkan spesification(Age Range, Brand, Size) dari 
 mainan. Pengguna juga bisa menyunting atau menghapus data spesification yang telah dibuat.
-      ~ Untuk menambahkan data spesification, klik input box setiap kolom Age Range, Brand, dan Size untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database server.
-      ~ Untuk menyunting data spesification, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Age Range, Brand, Size. Pengguna dapat melakukan perubahan pada input box data spesification tersebut. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
+A. Untuk menambahkan data spesification, klik input box setiap kolom Age Range, Brand, dan Size untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database server.
+B. Untuk menyunting data spesification, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Age Range, Brand, Size. Pengguna dapat melakukan perubahan pada input box data spesification tersebut. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
       ~ Untuk menghapus data spesification, klik "Select" pada row tabel data yang ingin dihapus. Data-data spesification akan ditampilkan kembali pada input box. Setelahnya, klik "Delete" untuk menghapus data tersebut dari database server.
    5. Manage Categories
       Bagian pengguna untuk 
