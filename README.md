@@ -7,7 +7,7 @@ Aplikasi ini ditulis menggunakan bahasa C#, HTML, dan Javascript
 2. Lengkapi dengan .NET Framework 4.5.2
 3. Lengkapi dengan ASP.NET Web Application (.NET Framework)
 
-## Pengunaan Aplikasi
+## Pengunaan Aplikasi 
 Penggunaan web aplikasi House of Toys dimulai dengan menggunakan akun yang telah terdaftar (sebagai seller atau buyer). Masukkan email pengguna dan password, kemudian klik "Login" untuk memasuki halaman utama House of Toys.
 
 ### Seller Side
