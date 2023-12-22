@@ -1,14 +1,14 @@
 # TugasAkhirPBO-HouseOfToys
 Aplikasi yang memanajemen data mainan di sebuah toko untuk mempermudah pembeli dalam melihat beragam mainan yang tersedia dan melakukan pembelian.
 
-## Cara menginstall aplikasi ini
+## Cara menjalankan aplikasi ini
 Aplikasi ini ditulis menggunakan bahasa C#, HTML, dan Javascript
 1. Gunakan aplikasi Microsoft Visual Studio
 2. Lengkapi dengan .NET Framework 4.5.2
 3. Lengkapi dengan ASP.NET Web Application (.NET Framework)
 
 ## Pengunaan Aplikasi
-((LOGIN))
+Penggunaan web aplikasi House of Toys dimulai dengan menggunakan akun yang telah terdaftar (sebagai seller atau buyer). Masukkan email pengguna dan password, kemudian klik "Login" untuk memasuki halaman utama House of Toys.
 
 ### Seller Side
 1. Manage Toys : Bagian pengguna untuk mendaftarkan toys yang dimiliki dengan data Name, Spesification, Categories, Price, Quantity. Pengguna juga bisa menyunting atau menghapus data toys yang telah dibuat.
@@ -27,7 +27,9 @@ Aplikasi ini ditulis menggunakan bahasa C#, HTML, dan Javascript
    - Untuk menambahkan data buyer, klik input box setiap kolom buyer untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database.
    - Untuk menyunting data buyer, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Name, Email, Phone Number, Password. Pengguna dapat melakukan perubahan pada input box data buyer tersebut. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
    - Untuk menghapus data buyer, klik "Select" pada row tabel data yang ingin dihapus. Data-data buyer akan ditampilkan kembali pada input box. Setelahnya, klik "Delete" untuk menghapus data tersebut dari database server.
-### Buyer Interface
-   1. Billing
+
+### Buyer Side
+1. Billing : Bagian pengguna untuk mendaftarkan pembelian mainan yang tersedia.
+   - Untuk menambahkan mainan pembelian ke dalam Bill, klik "Select" pada row data dari Toys List untuk menampilkan kembali ke input box. Masukkan quantity dan billing date lalu klik "Add To Bill" untuk menambahkan data pembelian ke dalam database Bill dan tampilan tabel Billing. Lakukan print apabila diperlukan.
 
    
