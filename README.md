@@ -23,9 +23,9 @@ A. Seller Side
    - Untuk menyunting data categories, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Name Categories, Description.    Pengguna dapat melakukan perubahan pada input box data  tersebut. Scategories. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
    - Untuk menghapus data categories, klik "Select" pada row tabel data yang ingin dihapus. Data-data categories akan ditampilkan kembali pada input box. Setelahnya, klik "Delete" untuk menghapus data tersebut dari database server.
 1. Manage Buyer : Bagian pengguna untuk mendaftarkan buyer (Name, Email, Phone Number, Password). Pengguna juga bisa menyunting atau menghapus data buyer yang telah dibuat.
-  - Untuk menambahkan data buyer, klik input box setiap kolom buyer untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database.
-  - Untuk menyunting data buyer, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Name, Email, Phone Number, Password. Pengguna dapat melakukan perubahan pada input box data buyer tersebut. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
-  - Untuk menghapus data buyer, klik "Select" pada row tabel data yang ingin dihapus. Data-data buyer akan ditampilkan kembali pada input box. Setelahnya, klik "Delete" untuk menghapus data tersebut dari database server.
+   - Untuk menambahkan data buyer, klik input box setiap kolom buyer untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database.
+   - Untuk menyunting data buyer, klik "Select" pada row tabel data yang ingin diubah. Kemudian, data-data tersebut akan ditampilkan kembali pada setiap kolom Name, Email, Phone Number, Password. Pengguna dapat melakukan perubahan pada input box data buyer tersebut. Setelahnya, klik "Update" untuk menyimpan data yang telah diubah.
+   - Untuk menghapus data buyer, klik "Select" pada row tabel data yang ingin dihapus. Data-data buyer akan ditampilkan kembali pada input box. Setelahnya, klik "Delete" untuk menghapus data tersebut dari database server.
 B. Buyer Interface
    1. Billing
 
