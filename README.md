@@ -9,6 +9,7 @@ Aplikasi ini ditulis menggunakan bahasa C#, HTML, dan Javascript
 
 ## Pengunaan Aplikasi
 ((LOGIN))
+
 ### Seller Side
 1. Manage Toys : Bagian pengguna untuk mendaftarkan toys yang dimiliki dengan data Name, Spesification, Categories, Price, Quantity. Pengguna juga bisa menyunting atau menghapus data toys yang telah dibuat.
    - Untuk menambahkan data toys, klik input box setiap kolom Name, Spesification, Categories, Price, Quantity untuk memasukkan data-data tersebut. Kemudian, klik "Save" untuk menyimpan data ke dalam database server.
